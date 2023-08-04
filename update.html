@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header class=""header-one-sticky-header">
+    <div class="header-topbar">
+        
+    </div></header>
+    <head>
+        <div class="header">  
+        <meta charset="UTF-8">
+            <h1>SYSTEM INVENTORY LAB KOMPUTER</h1>
+            </div>  
+            <link rel="stylesheet" href="style-dashboard.css"/>
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <div class="navbar">
+              <a href="dashboard.html">				DAFTAR PERANGKAT		</a>
+              <a href="update.html">			    TAMBAH INVENTORI			</a>
+              <!--<a href="#Matkul">				MATA KULIAH		</a>
+              <a href="#Journal">				JOURNAL			</a>
+              <a href="#Contact">				KONTAK			</a>-->
+        </div>
+
+        <!--FORM INPUT INVENTORY -->
+<div class="form-input">
+    <h4>FORM INPUT INVENTORI</h4>
+    <form action="update.php" method="POST">
+    <table>
+      <tr>
+        <td>
+          Jenis :
+        </td>
+        <td>
+          <input type="text" placeholder="Perangkat" name="jenis" required>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          Merk :
+        </td>
+        <td>
+          <input type="text" placeholder="Model" name="merk" required>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          Serial Number :
+        </td>
+        <td>
+          <input type="text" placeholder="SN" name="serialnumber" required>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Barcode :
+        </td>
+        <td>
+          <input type="text" placeholder="Barcode" name="barcode" required>
+        </td>
+        <tr>
+          <td>
+            Harga :
+          </td>
+          <td>
+            <input type="text" placeholder="harga" name="harga" required>
+          </td>
+        </tr>
+      </tr>
+      <tr>
+        <td>
+          Tanggal Pembelian :
+        </td>
+        <td>
+          <input type="date" name="date" required>
+        </td>
+      </tr>
+    </table>
+    <input type="submit" value="Tambah">
+    <input type="button" value="Cancel">
+    </form>
+    
+    </div>
+
+</body>
+</html>

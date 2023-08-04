@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-position: center;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    color: #fff;
+    background-image: linear-gradient(#44a08d, #093637);
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.589);
+    justify-content: center;
+	
+    /*AREA BG*/
+	
+    background: linear-gradient(-45deg, #7CFC00, #00FF00, #EE7752, #E73C7E, #23A6D5, #23D5AB, #FFFF00);
+	background-size: 200% 200%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+ 
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+ 
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+h1 {
+    font-size: auto;
+    margin: 0px;
+    
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 10px;
+	text-align: center;
+    
+}
+
+/* Menu Atas */
+.navbar {
+    display: flex;
+    background-color: #333;
+    justify-content: center;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    position: center;
+}
+.navbar a:hover {
+    background-color: #555;
+
+}
+
+/*FORM INPUT*/
+
+.form-input {
+	display: auto;
+	max-width: 500px;
+    margin: auto;
+	margin-top: 30px;
+    background-color:rgba(61, 61, 61, 0.534);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 3);
+}
+
+h4 {
+	font-size: 30px;
+	text-align: center;
+	margin-top: 10px;
+}
