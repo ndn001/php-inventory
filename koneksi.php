@@ -7,8 +7,8 @@ $password = "";
 $conn = mysqli_connect($servername, $username, $password, $database);
 
 if (!$conn){
-	die("Koneksi gagal : " . mysqli_connect_error());
+	die("Database-Status : Disconnected : " . mysqli_connect_error());
 } else {
-	echo "Koneksi berhasil !!!!!!!! ";
+	echo "<center>Database-Status : Connected</center>";
 }
 ?>
